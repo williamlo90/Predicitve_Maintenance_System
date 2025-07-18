@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Predictive Maintenance</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="header mb-3">🔧 Welcome to Predictive Maintenance System</h1>
+        <p class="lead">Selamat datang! Klik tombol di bawah untuk mulai memprediksi kebutuhan perawatan mesin Anda.</p>
+        <a href="/predictdata" class="btn btn-primary btn-lg mt-3">🚀 Start Prediction</a>
+    </div>
+</body>
+</html>
